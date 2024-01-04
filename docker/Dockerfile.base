@@ -1,4 +1,4 @@
-FROM cyberdojofoundation/javascript-node:6df9f12
+FROM cyberdojofoundation/javascript-node:8afa909
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /etc/jest
