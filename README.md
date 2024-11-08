@@ -1,6 +1,6 @@
-[![CircleCI](https://circleci.com/gh/cyber-dojo-languages/javascript-jest.svg?style=svg)](https://circleci.com/gh/cyber-dojo-languages/javascript-jest)
+[![Github Action (main)](https://github.com/cyber-dojo-languages/javascript-jest/actions/workflows/main.yml/badge.svg)](https://github.com/cyber-dojo-languages/javascript-jest/actions)
 
-## display_name="Javascript, jest"
-## image_name="cyberdojofoundation/javascript_node_jest"
+## display_name="Javascript 23.1.0, jest 29.7.0"
+## image_name="ghcr.io/cyber-dojo-languages/javascript_node_jest"
 
 ![cyber-dojo.org home page](https://github.com/cyber-dojo/cyber-dojo/blob/master/shared/home_page_snapshot.png)
