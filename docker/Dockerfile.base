@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/javascript-node:3879b15
+FROM ghcr.io/cyber-dojo-languages/javascript-node:14d6b57
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /etc/jest
@@ -6,4 +6,3 @@ WORKDIR /etc/jest
 COPY package.json .
 RUN npm install
 
-COPY red_amber_green.rb /usr/local/bin

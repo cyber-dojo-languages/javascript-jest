@@ -5,7 +5,7 @@ readonly JSON=`cat ${MY_DIR}/docker/image_name.json`
 [[ ${JSON} =~ ${REGEX} ]]
 readonly IMAGE_NAME="${BASH_REMATCH[1]}"
 
-readonly EXPECTED=29.7.0
+readonly EXPECTED=30.2.0
 readonly ACTUAL=$(docker run --rm -i ${IMAGE_NAME} sh -c 'npx jest --version')
 
 if echo "${ACTUAL}" | grep -q "${EXPECTED}"; then
