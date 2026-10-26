@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/javascript-node:f2d88b5
+FROM ghcr.io/cyber-dojo-languages/javascript-node:7432bb4@sha256:f3bd3882f4b1dc12cc86b3d778379b444f497526b6e2884667243a65cf37271f
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /etc/jest
@@ -8,4 +8,3 @@ RUN npm install
 
 COPY install.sh .
 RUN ./install.sh && rm ./install.sh
-
