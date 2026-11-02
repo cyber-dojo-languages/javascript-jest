@@ -1,4 +1,4 @@
-FROM ghcr.io/cyber-dojo-languages/javascript-node:7432bb4@sha256:f3bd3882f4b1dc12cc86b3d778379b444f497526b6e2884667243a65cf37271f
+FROM ghcr.io/cyber-dojo-languages/javascript-node:7432bb4@sha256:bc53cbff5dac6bf9173176a767f9e08972ca29d7de71c050243202a307a22ccc
 LABEL maintainer=jon@jaggersoft.com
 
 RUN mkdir /etc/jest
